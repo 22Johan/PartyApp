@@ -1,0 +1,46 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Retos con amigos</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-button color="success" expand="block" (click)="genRandom()">Jugar</ion-button>
+  <ion-card color="dark">
+    <ion-card-header>
+      <ion-card-title>Tu reto es el numero {{randomNumber}}</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      
+    </ion-card-content>
+  
+  </ion-card>
+  
+  <ion-grid>
+    <ion-row>
+      <ion-col>1.- Crear una historia ficticia</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>2.- Saltar 15 veces a la pata coja con cada pierna</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>3.- Crear un nuevo instrumento musical</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>4.- El baile congelado</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>5.- Contar muchos chistes en un minuto</ion-col>
+    </ion-row>
+  </ion-grid>
+  </ion-content>
+  
+  
+  <ion-footer>
+    <ion-toolbar color="Dark">
+      <ion-buttons slot="end">
+        <ion-button routerLink="/inicio">Regresar</ion-button>
+      </ion-buttons>
+    </ion-toolbar>
+  </ion-footer>

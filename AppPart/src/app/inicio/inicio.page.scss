@@ -1,0 +1,74 @@
+ion-content {
+    --background: #F05454;
+}
+ 
+
+  ion-button {
+    --background: #121212;
+    --color: #F5F5F5;
+    --border-radius: 10px;
+    width: 90%;
+    height: 200px;
+    font-style: italic;
+    font-size: 15px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }  
+
+  ion-button:hover{
+    --background:#f5f5f5;
+    --backdrop-opacity: 0.2;
+    --box-shadow: 0 5px 10px 0 #F05454;
+    --color: #121212;
+  }
+
+  #containerb {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 20%;
+  }
+  
+  #containert {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 60%;
+  }
+
+  #containerimg{
+    width: 50%;
+    margin: auto;
+}
+
+  img{
+    width: 50px;
+    height: 50px;
+  }
+
+  /*menu*/
+  
+.ion-padding p{
+    margin: auto;
+    width: 60%;
+    color: #121212;
+ }
+
+ #salir{
+    color: red;
+    height: auto;
+ }
+
+
+ 
+  ion-menu::part(backdrop) {
+    background-color: #fffdfd;
+  }
+  
+  ion-menu::part(container) {
+    border-radius: 0 20px 20px 0;
+  
+    box-shadow: 4px 0px 16px #30475E;
+  }
+
